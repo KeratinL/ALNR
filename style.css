@@ -6,9 +6,37 @@ body {
 
 .top {
     display: flex;
-    background-color: #1f2937;
     flex-direction: column;
+    background-color: #1f2937;
     padding: 0 100px;
+}
+
+
+.mid-top {
+    display: flex;
+}
+
+.mid-bottom {
+    background-color: #e5e7eb;
+}
+
+.bottom {
+
+}
+
+.top, .bottom, .info-head, .quote {
+    color:  #1f2937;
+
+}
+
+.hero-main, .logo {
+    color: #f9faf8;
+}
+
+a, .hero-second {
+    color: #e5e7eb;
+    font-size: 18px;
+
 }
 
 .header {
@@ -21,27 +49,8 @@ body {
     align-items: center;
 }
 
-a, .hero-second {
-    color: #e5e7eb;
-    font-size: 18px;
-
-}
-
-.mid-top {
+.container {
     display: flex;
-}
-
-.mid-bottom {
-    background-color: #e5e7eb;
-}
-
-.top, .bottom, .info-head, .quote {
-    color:  #1f2937;
-
-}
-
-.hero-main, .logo {
-    color: #f9faf8;
 }
 
 ul {
@@ -56,5 +65,14 @@ a {
 
 img {
     height: auto;
-    width: 100px;
+    width: 300px;
 }
+
+image {
+    display: flex;
+}
+
+
+
+
+
