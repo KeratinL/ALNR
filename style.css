@@ -21,3 +21,8 @@ body {
 .hero-main, .logo {
     color: #f9faf8;
 }
+
+ul {
+    color: white;
+    list-style-type: none;
+}
