@@ -7,10 +7,19 @@ body {
 .top {
     display: flex;
     background-color: #1f2937;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
 }
 
 .mid-top {
     display: flex;
+}
+
+.mid-bottom {
+    background-color: #e5e7eb;
 }
 
 .top, .bottom, .info-head, .quote {
