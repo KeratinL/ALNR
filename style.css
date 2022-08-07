@@ -14,6 +14,7 @@ body {
 
 .mid-top {
     display: flex;
+    flex: 1;
     flex-direction: column;
     padding: 20px 150px;
     
@@ -37,20 +38,17 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 0 0 0;
-    width: 100px;
+    flex: 1;
+    height: 200px;
+    width: 200px;
 }
 
 .card {
     display: flex;
-    flex: 0 1 0;
-    height: 100px;
-    width: 100px;
 }
 
 .card-text {
-    height: 100px;
-    width: 100px;
+    width: 150px;
     text-align: center;
     font-size: 18px;
 }
@@ -123,8 +121,9 @@ a {
 
  .card img {
     display: flex;
-    height: auto;
-    width: 100px;
+    height: 150px;
+    width: 150px;
+
 }
 
 
