@@ -21,6 +21,12 @@ body {
     align-items: center;
 }
 
+a, .hero-second {
+    color: #e5e7eb;
+    font-size: 18px;
+
+}
+
 .mid-top {
     display: flex;
 }
@@ -46,5 +52,9 @@ ul {
 
 a {
     text-decoration: none;
-    color: #e5e7eb
+}
+
+img {
+    height: auto;
+    width: 100px;
 }
