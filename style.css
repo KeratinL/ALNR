@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    background-color: #1f2937;
+}
+
+.mid-top {
+    display: flex;
+}
+
+.top, .bottom, .info-head, .quote {
+    color:  #1f2937;
+
+}
+
+.hero-main, .logo {
+    color: #f9faf8;
+}
