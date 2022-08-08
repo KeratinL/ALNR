@@ -1,16 +1,11 @@
 body {
     display: flex;
-    flex: 1;
     flex-direction: column;
 }
 
 .top {
-    display: flex;
-    flex-direction: column;
     background-color: #1f2937;
-    padding: 0 100px;
 }
-
 
 .mid-top {
     display: flex;
@@ -44,6 +39,20 @@ body {
 
 .mid-bottom {
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    max-width: 756px;
+}
+
+.quote {
+
+}
+
+.sub-quote {
+    text-align: right;
 }
 
 .mid-top, .mid-bottom {
@@ -51,7 +60,15 @@ body {
 }
 
 .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.box {
+    display: flex  ;
+    background: green;
+    width: 900px;
 }
 
 .top, .bottom, .info-head, .quote {
@@ -71,16 +88,22 @@ a, .hero-second{
 
 .header {
     display: flex;
+    margin: auto;
     justify-content: space-between;
+    width: 900px;
 }
 
 .logo {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
 .container {
+    margin: auto;
     display: flex;
+    justify-content: space-between;
+    width: 900px;
 }
 
 ul {
@@ -105,4 +128,17 @@ a {
     width: 200px;
 }
 
+.footer {
+    text-align: center;
+}
 
+.box button {
+    display: flex;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    flex: 1 0 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
