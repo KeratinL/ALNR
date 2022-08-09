@@ -71,6 +71,8 @@ body {
 
 .sub-quote {
     text-align: right;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 
